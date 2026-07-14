@@ -1,0 +1,20 @@
+li a{
+    margin-right: 20px !important;
+}
+li a:hover{
+    color: orange !important;
+    border-bottom: 2px solid orange;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-section{
+    height: 100dvh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/hero.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
